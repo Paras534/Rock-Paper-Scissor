@@ -1,0 +1,158 @@
+
+.uBar{
+    height: 70px;
+    background-color:#4D2D52;
+    color: white;
+    display: grid;
+    justify-content: center;
+}
+.uBar2{
+    height: 180px;
+    background-color:#E53872;
+    color: white;
+    display: grid;
+    justify-content: center;
+}
+.para{
+    display: flex;
+    justify-content: center;
+}
+.para p{
+    font-size: 20px;
+}
+#status{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    height: 320px;
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.button{
+    margin-top: 15px;;
+    height: 200px;
+    width:200px;
+}
+.button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.button p{
+    padding-top: 200px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+#rock{
+    background-image: url("rock.jpg");
+    background-size: cover;
+    border: none;
+}
+#rock:hover{
+    border-radius: 50%;
+    border: 10px solid black;
+}
+#rock:active{
+    opacity: 1;
+}
+#paper{
+    background-image: url("paper.jpg");
+    background-size: cover;
+    border: none;
+}
+#paper:hover{
+    border-radius: 50%;
+    border: 10px solid black;
+}
+#paper:active{
+    opacity: 1.5;
+}
+#scissor{
+    background-image: url("scissor.jpg");
+    background-size: cover;
+    border: none;
+}
+#scissor:hover{
+    border-radius: 50%;
+    border: 10px solid black;
+}
+#scissor:active{
+    opacity: 1;
+}
+.scoreboard{
+    width: 700px;
+    display: flex;
+    height: 80px;
+    justify-content:space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+}
+.player-scoreboard{
+    background-color: #9A4C95;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 160px;
+
+}
+.computer-scoreboard{
+    background-color: #9A4C95;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 160px;
+    margin-right: 80px;
+
+}
+.scoreboard p{
+    font-size: 25px;
+}
+.reset{
+    margin-top: 20px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#rstbtn{
+    font-size: 25px;
+    width:90px;
+    height: 40px;
+    background-color: #4D2D52;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.winner{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    background-color:violet;
+    color: white;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -436px;
+    margin-left: 453px;
+    border: 2px solid black;
+    font-size: 35px;
+    visibility: hidden;
+    
+}
+#newGame{
+    font-size: 25px;
+    width:140px;
+    height: 40px;
+    background-color: #4D2D52;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    
+    z-index: 3;
+}
